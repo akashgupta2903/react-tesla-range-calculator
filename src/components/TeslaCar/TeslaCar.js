@@ -9,7 +9,7 @@ const TeslaCar = (props) => (
     </div>
   </div>
 );
-TeslaCar.propTypes = {
+TeslaCar.checkPropTypes = {
   wheelsize: PropTypes.number
 }
 export default TeslaCar;
