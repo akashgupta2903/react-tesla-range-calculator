@@ -2,6 +2,8 @@ import React from 'react';
 import './TeslaBattery.css';
 import TeslaNotice from '../components/TeslaNotice/TeslaNotice'
 import TeslaCar from '../components/TeslaCar/TeslaCar'
+import TeslaStats from '../components/TeslaStats/TeslaStats'
+
 class TeslaBattery extends React.Component {
   constructor(props) {
     super(props);
